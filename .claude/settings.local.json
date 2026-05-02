@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake --build d:/code/vscode/Employee-Management-System-Based-on-Polymorphism/build --config Debug --target all -j 16 --clean-first)",
+      "Bash(./bin/ems.exe)",
+      "Bash(xxd \"d:/code/vscode/Employee-Management-System-Based-on-Polymorphism/EmpFile.txt\")"
+    ]
+  }
+}

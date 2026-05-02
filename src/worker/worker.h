@@ -7,8 +7,8 @@ using namespace std;
 class Worker{
 public:
     virtual ~Worker() = default;
-    virtual void ShowInfo();
-    virtual string GetDeptName();
+    virtual void ShowInfo() = 0;
+    virtual string GetDeptName() = 0;
     int m_Id;
     string m_Name;
     int m_DeptName; 
