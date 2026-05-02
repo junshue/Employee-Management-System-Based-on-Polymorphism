@@ -70,5 +70,4 @@ Testing/
 
 #
 bin/
-EmpFile.txt/
-EmpFile/
+EmpFile.txt
