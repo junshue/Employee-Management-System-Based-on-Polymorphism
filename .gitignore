@@ -68,6 +68,8 @@ vcpkg_installed/
 Testing/
 .cache/
 
-#
+#如果已经跟踪了一个文件，可以进行如下操作，取消跟踪
+#git rm --cached EmpFile.txt
+#echo "EmpFile.txt" >> .gitignore
 bin/
 EmpFile.txt

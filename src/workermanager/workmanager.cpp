@@ -408,6 +408,7 @@ void WorkerManager::Clean_File(){
             }
             delete[] this->m_EmpArray;
             this->m_EmpArray = NULL;
+            this->m_EmpNum = 0;
             this->m_FileIsEmpty = true;
         }
         cout << "清空成功！" << endl;
